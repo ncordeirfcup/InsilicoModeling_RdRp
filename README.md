@@ -1,5 +1,8 @@
 # Pharmacophore_modeling_RdRp
 This repository is provided to assist development of pharmacophore models reported in the article 'In silico characterization of aryl benzoyl hydrazide derivatives as potential inhibitors of RdRp enzyme of H5N1 influenza virus' authored by Abhishek Ghosh et al.
+
+The following dependencies are required to be installed:Numpy, Pandas, RDKit
+
 # Structure based pharmacophore
 Two Jupyter notebook files may be used for the developement of strcuture based pharmacophore and screening of ligands with the modified structure based pharmacophore. The strbased_pharmacophore_development.ipynb requires open-access tool Openpharmacophore (available at https://github.com/uibcdf/OpenPharmacophore).
 # Ligand based pharmacophore
