@@ -18,7 +18,7 @@ def main():
     name=str(args.inp)+'.sdf'
     mols = [m for m in Chem.SDMolSupplier('./'+name) if m != None]
     aligned_molecules, crippen_score=align_set_of_ligands(mols)
-    outn=str(args.inp)+'_out.sdf'
+    outn=str(args.inp)+'_aligned.sdf'
     writer = Chem.SDWriter(outn)
     for n in range(len(aligned_molecules)):
         writer.write(aligned_molecules[n])
