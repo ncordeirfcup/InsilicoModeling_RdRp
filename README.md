@@ -6,3 +6,6 @@ Two Jupyter notebook files may be used for the developement of strcuture based p
 Two python files (alignment.py and align_ligands.py) may be used for rigid-body alignment performed in the above-mentioned work. The alignment.py may be run with the following command:
 
 python alignment.py --inp input_structures
+
+The aligned structures will be saved as input_structures_aligned.sdf
+
