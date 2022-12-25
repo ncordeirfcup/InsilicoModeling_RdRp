@@ -14,3 +14,6 @@ The aligned structures will be saved as input_structures_aligned.sdf
 
 #2D-QSAR modeling
 The users may generate the 2D-QSAR models reported in the current work by using the training and test set files provided in the current repository (as .csv files) and by using the web-based app https://amit-mlr.herokuapp.com/. In this app, the user needs to upload the training and test set files (without changing their names) and put 'Dependent variable column' as 'last' to check the details of the 2D-QSAR models (such as corrlation matrix, predicted activity, plots, etc).
+
+#Citation
+GHOSH, A., PANDA, P., HALDER, A. K. & CORDEIRO, M. N. D. S. 2022. In silico characterization of aryl benzoyl hydrazide derivatives as potential inhibitors of RdRp enzyme of H5N1 influenza virus. Frontiers in Pharmacology, 13.
